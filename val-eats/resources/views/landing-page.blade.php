@@ -24,7 +24,7 @@
 
                 <!-- Navigatio Links -->
                 <div class="hidden md:flex space-x-6 gap-x-9 mr-28">
-                    <a href="/" class="text-white hover:text-red-600 transition text-3xl hover:underline">Home</a>
+                    <a href="/" class="text-red-600 hover:text-red-600 transition text-3xl hover:underline">Home</a>
                     <a href="/restaurants" class="text-white hover:text-red-600 transition text-3xl hover:underline">Restaurants</a>
                     <button class="text-white hover:text-red-600 transition focus:outline-none " >
                         <div>
@@ -35,15 +35,15 @@
                     </div>
                     </button>
                     <div>
-                        <a href="/login" class="flex items-center px-4 py-2 bg-white text-red-600 rounded-lg hover:bg-slate-500 transition text-3xl">
+                        <a href="/register" class="flex items-center px-4 py-2 bg-white text-red-600 rounded-lg hover:bg-slate-500 transition text-3xl">
                           <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 24 24">
                             <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-3.31 0-6 2.69-6 6v2h12v-2c0-3.31-2.69-6-6-6z"/>
                           </svg>
                           Sign In
                         </a>
-                      </div>
-
+                   </div>
                 </div>
+
 
                 <!-- Mobile Menu Toggle -->
                 <button class="block md:hidden text-red-600 hover:text-gray-900 transition focus:outline-none" id="mobile-menu-toggle">
@@ -64,7 +64,7 @@
 
 
     <contents class="bg-transparent">
-        <div class="text-white py-20 px-5 text-left mt-30">
+        <div class="text-white py-20 px-5 text-left mt-30 ">
             <h1 class="text-4xl font-bold leading-tight mb-4">Your all-in-one destination to satisfy every craving.</h1>
             <p class="text-lg mb-6">Discover endless options tailored just for you. Dive in, explore, and let your cravings lead the way!</p>
             <a href="#" class="bg-white text-blue-500 font-semibold py-2 px-6 rounded-full hover:bg-gray-100 transition">Browse Restaurants</a>
